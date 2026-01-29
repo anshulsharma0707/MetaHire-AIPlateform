@@ -1,0 +1,19 @@
+{
+  "name": "metahire-main",
+  "version": "1.0.0",
+  "description": "A platform to practice tech interviews with AI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run dev --prefix Backend\" \"npm run dev --prefix FrontEnd\"",
+    "backend": "npm run dev --prefix Backend",
+    "frontend": "npm run dev --prefix FrontEnd"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
