@@ -9,7 +9,7 @@ An AI-powered platform for practicing job interviews. Users go through simulated
 - **Multi-language code editor** — built-in code editor (CodeMirror) supporting JavaScript, Python, C++, and Java for technical interview questions
 - **AI-generated feedback & scoring** — each answer is scored (0–10) with detailed feedback, powered by Google's Gemini AI
 - **Interview history** — past sessions, scores, and feedback are saved and viewable per user
-- **Resume & profile upload** — users can upload a resume and profile photo (stored via Cloudinary)
+- **Resume & profile upload** — user can upload a resume and profile photo (stored via Cloudinary)
 - **Authentication** — JWT-based signup/login with password reset via email (Nodemailer)
 
 ## Tech Stack
